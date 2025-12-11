@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "Anh iu bé ,Anh hứa hongg làm bé buồn nữa đouuu :3";
+  titleElement.innerHTML = "Anh iu vợ ,Anh hứa hongg làm vợ buồn nữa đouuu :3";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
@@ -44,10 +44,10 @@ function generateMessage(noCount) {
   const messages = [
     "Không Bao Giờ",
     "Anh bicc lỗi rồi ạa",
-    "Mong bé tha lỗi choo anhh :((",
+    "Mong vợ tha lỗi choo anhh :((",
     "Anhh saii rồi , anhh đáng trách ạ",
-    "Bé đừng giận anhh nữa nhoo",
-    "Anhhh iu bé nhắm nhunnn đóoooo",
+    "Vợ đừng giận anhh nữa nhoo",
+    "Anhhh iu vợ nhắm nhunnn đóoooo",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
