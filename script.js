@@ -44,10 +44,10 @@ function generateMessage(noCount) {
   const messages = [
     "Không Bao Giờ",
     "Anh bicc lỗi rồi ạa",
-    "Mong vợ tha lỗi choo anhh :((",
+    "Mong Em tha lỗi choo anhh :((",
     "Anhh saii rồi , anhh đáng trách ạ",
-    "Vợ đừng giận anhh nữa nhoo",
-    "Anhhh iu vợ nhắm nhunnn đóoooo",
+    "Em đừng giận anhh nữa nhoo",
+    "Yêu ái phi 😝",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
